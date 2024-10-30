@@ -1,0 +1,83 @@
+# Fichiers de compilation Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Dossiers de build
+/build/
+/target/
+
+# Fichiers spécifiques à l'IDE IntelliJ
+.idea/
+.idea/*
+*.iml
+*.ipr
+*.iws
+
+# Configuration IntelliJ pour Maven, Gradle, etc.
+*.mvn/
+/.mvn/
+target/
+.gradle/
+!src/main/resources/
+!src/test/resources/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/vcs.xml
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/kotlinc.xml
+mvnw.cmd
+mvnw
+
+# Fichiers temporaires ou système
+Thumbs.db
+
+# Logs
+*.log
+
+# Fichiers de configuration spécifiques à l'utilisateur
+*.properties~
+*.xml~
+*.yml~
+*.bak
+
+# Fichiers de configuration de serveur
+local.env
+
+# Tomcat, Glassfish, Wildfly etc. server files
+logs/
+temp/
+work/
+
+# Eclipse (si projet utilisé dans Eclipse IDE également)
+.project
+.classpath
+.settings/
+bin/
+.apt_generated
+.factorypath
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
